@@ -16,7 +16,7 @@ public class DemoApplication {
 
     @RequestMapping(path= "/h")
     public String hello(){
-        return "hello, Gordongit";
+        return "hello, giit";
     }
 
 
