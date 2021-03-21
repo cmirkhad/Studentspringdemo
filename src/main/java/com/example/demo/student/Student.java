@@ -29,13 +29,11 @@ public class Student {
     public Student(Long id, String name,  LocalDate dob, String email) {
         this.id = id;
         this.name = name;
-
         this.dob = dob;
         this.email = email;
     }
     public Student( String name,  LocalDate dob, String email) {
         this.name = name;
-
         this.dob = dob;
         this.email = email;
     }
